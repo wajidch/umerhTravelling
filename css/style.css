@@ -1,6 +1,25 @@
 /* CSS Document */
 /* Import Css */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700|Raleway:400,500,600,700&display=swap");
+body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #section1 {}
+  #section2 {padding-top:100px !important;}
+
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -431,4 +450,22 @@ p.service_text{
 	h2{
 		font-size:1.2rem;
 	}
+	.navbar-brand img {
+    max-width: 60%;
+    height: auto;
+}
+	.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+	.navbar-light .navbar-nav .active:after {
+    background: rgb(25, 35, 84);
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    left: 10px;
+    margin-left: -10px;
+    top: 5px;
+}
 }
