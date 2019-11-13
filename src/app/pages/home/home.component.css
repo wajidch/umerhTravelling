@@ -1,3 +1,24 @@
 .capital-text{
     text-transform: capitalize;
   }
+  ul{
+    margin: 0 0 0 20px;
+  }
+  ul li{
+    line-height: normal;
+    padding: 20px 0px 0px 0px;
+    font-size: 16px;
+    list-style: disc;
+  }
+  #section1{
+    position: relative;
+  }
+  #section1:before{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+  }

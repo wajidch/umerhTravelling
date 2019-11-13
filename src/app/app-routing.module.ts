@@ -7,7 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
 
-      { path:'',component:HomeComponent,data: {title: ':: Al-Musawar | Travels &amp; Tours ::'}},
+      { path:'bookings',component:HomeComponent,data: {title: ':: Al-Musawar | Travels &amp; Tours ::'}},
      
   
       {path:'**',redirectTo:'',pathMatch:'full',data: {title: ':: Al-Musawar | Travels &amp; Tours ::'}}
