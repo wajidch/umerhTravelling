@@ -71,7 +71,7 @@
         </div>
               <form class="col-md-11 m-auto" [formGroup]='bookForm'>
                   
-                  <h2 class="mb-4">Get Exclusive Umrah Packages</h2>
+                  <h2 class="mb-4">Get Umrah Packages</h2>
                   
                   <div class="row">
                       
@@ -80,7 +80,7 @@
                     
                             <input type="text" class="form-control" 
                             id="" aria-describedby="" name='name' formControlName='name' placeholder="Enter Full Name">
-                            <div *ngIf="submitted && !bookForm.controls['name'].valid">
+                            <div style="text-align: left;" *ngIf="submitted && !bookForm.controls['name'].valid">
                                 <span class="help-block" style="color:red"
                                     *ngIf="submitted && bookForm.controls['name'].hasError('required')">
                                     Name is required.</span>
@@ -95,12 +95,12 @@
                             name='email' formControlName='email' id=""
                              aria-describedby="emailHelp" placeholder="Enter email">
     
-                             <div *ngIf="submitted && !bookForm.controls['email'].valid">
+                             <div style="text-align: left;" *ngIf="submitted && !bookForm.controls['email'].valid">
                                 <span class="help-block" style="color:red"
                                     *ngIf="submitted && bookForm.controls['email'].hasError('required')">
                                     Email is required.</span>
                             </div>
-                            <div *ngIf="submitted && !bookForm.controls['email'].valid">
+                            <div style="text-align: left;" *ngIf="submitted && !bookForm.controls['email'].valid">
                                     <span class="help-block" style="color:red"
                                         *ngIf="submitted && bookForm.controls['email'].hasError('email')">
                                         Email format is incorrect.</span>
@@ -117,15 +117,15 @@
                             <input type="text" class="form-control"
                              id="" name='phone' formControlName='phone' aria-describedby="" placeholder="Enter Phone">
     
-                             <div *ngIf="submitted && !bookForm.controls['phone'].valid">
+                             <div style="text-align: left;" *ngIf="submitted && !bookForm.controls['phone'].valid">
                                 <span class="help-block" style="color:red"
                                     *ngIf="submitted && bookForm.controls['phone'].hasError('required')">
                                     Phone is required.</span>
                             </div>
-                            <div *ngIf="submitted && !bookForm.controls['phone'].valid">
+                            <div style="text-align: left;" *ngIf="submitted && !bookForm.controls['phone'].valid">
                                     <span class="help-block" style="color:red"
                                         *ngIf="submitted && bookForm.controls['phone'].hasError('pattern')">
-                                        Phone format is incorrect.</span>
+                                        Phone format is incorrect (0332xxxxxxx).</span>
                                 </div>
                           </div>
                     </div>
@@ -147,7 +147,7 @@
                     
                             <textarea class="form-control"
                              id="exampleFormControlTextarea1" name='message' formControlName='message' rows="3"></textarea>
-                             <div *ngIf="submitted && !bookForm.controls['message'].valid">
+                             <div style="text-align: left;" *ngIf="submitted && !bookForm.controls['message'].valid">
                                 <span class="help-block" style="color:red"
                                     *ngIf="submitted && bookForm.controls['message'].hasError('required')">
                                     Message is required.</span>
@@ -157,7 +157,8 @@
                     
                   </div>
                   
-                  <button (click)='booknow(bookForm.value)' id='bookRequest' class="btn btn-warning btn-block btn-lg">Book Now</button>
+                  <button (click)='booknow(bookForm.value)' id='bookRequest'
+                   class="btn btn-warning btn-block btn-lg">Contact Me</button>
                 </form>
               
             </div>
