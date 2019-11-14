@@ -14,13 +14,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#section1">Home
+              <a class="nav-link" style="cursor: pointer;" (click)="scroll(section1)">Home
                     
                   </a>
             </li>
             
             <li class="nav-item" >
-              <a class="nav-link" href="#section2">Services</a>
+              <a class="nav-link" style="cursor: pointer;" (click)="scroll(section2)">Services</a>
             </li>
             
           </ul>
@@ -29,7 +29,7 @@
     </nav>
     
           
-    <header id="section1">
+    <header #section1>
       <div id="carouselExampleIndicators" class="carousel slide cover top" data-ride="carousel">
     <!--
         <ol class="carousel-indicators">
@@ -190,7 +190,7 @@ standard
         
     <!--services section-->
         
-        <div class="feat bg-gray pt-5 pb-5 cover" id="section2">
+        <div class="feat bg-gray pt-5 pb-5 cover" #section2>
         <div class="container">
           <div class="row">
             <div class="section-head col-sm-12">

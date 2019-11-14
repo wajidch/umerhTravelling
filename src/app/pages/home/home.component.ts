@@ -194,6 +194,9 @@ export class HomeComponent implements OnInit {
   trackByFn(index, item) {    
     return item.id; 
  }
+ scroll(el: HTMLElement) {
+  el.scrollIntoView({behavior: 'smooth'});
+}
   ngAfterViewInit() {
     this.getslider();
   }
