@@ -15,11 +15,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { AngularButtonLoaderModule } from 'angular-button-loader';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { OwlModule } from 'ngx-owl-carousel';
+import { ComingSoonComponent } from './pages/coming-soon/coming-soon.component';
 @NgModule({
   declarations: [
     AppComponent,
     
     HomeComponent,
+    
+    ComingSoonComponent,
     
   
   
