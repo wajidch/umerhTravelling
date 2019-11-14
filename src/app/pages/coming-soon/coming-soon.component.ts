@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 declare var jQuery: any;
 declare var $: any;
-import {counddown100} from '../../../assets/comingsoon/countdown.js'
-import {flipclock} from '../../../assets/comingsoon/vendor/countdowntime/flipclock.js'
-import {flipcss} from '../../../assets/comingsoon/vendor/countdowntime/flipclock.min.js'
 
 @Component({
   selector: 'app-coming-soon',
