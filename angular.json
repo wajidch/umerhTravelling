@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bookings": {
+    "almusawareTravelling": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/bookings",
+            "outputPath": "dist/almusawareTravelling",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -61,7 +61,7 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
+                  "maximumWarning": "200kb",
                   "maximumError": "200kb"
                 }
               ]
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "bookings:build"
+            "browserTarget": "almusawareTravelling:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "bookings:build:production"
+              "browserTarget": "almusawareTravelling:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "bookings:build"
+            "browserTarget": "almusawareTravelling:build"
           }
         },
         "test": {
@@ -120,15 +120,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "bookings:serve"
+            "devServerTarget": "almusawareTravelling:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "bookings:serve:production"
+              "devServerTarget": "almusawareTravelling:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "bookings"
+  "defaultProject": "almusawareTravelling"
 }
