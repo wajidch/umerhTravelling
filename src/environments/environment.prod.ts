@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  apiUrl:'http://sms2.sms.appflox.com/api/',
+  apiUrl:'https://api.almussawartravelntours.info/api/',
   siteKey:'6Ldpb78UAAAAAN9-wyg2jWKEDlxXnyOqpoK31X6J',
-  imgUrl:'http://sms2.sms.appflox.com/'
+  imgUrl:' https://api.almussawartravelntours.info/'
 };
