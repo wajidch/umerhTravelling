@@ -24,7 +24,7 @@
     "angular-button-loader": "^1.1.5",
     "bootstrap": "^4.3.1",
     "countdown-js": "^1.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng-recaptchav3": "^4.0.2",
     "ngx-captcha": "^7.0.0",
     "ngx-owl-carousel": "^2.0.7",
